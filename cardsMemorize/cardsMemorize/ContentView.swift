@@ -2,17 +2,47 @@
 //  ContentView.swift
 //  cardsMemorize
 //
-//  Created by Mikael Fonseca on 25/07/22.
+//  Created by josivan on 25/07/22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack(content: {
+            RoundedRectangle(cornerRadius: 10.0).fill(Color.white)
+            RoundedRectangle(cornerRadius: 10.0).stroke(lineWidth: 3)
+            Text("🦄")
+
+        })
+        .padding()
+        .foregroundColor(Color.orange)
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
